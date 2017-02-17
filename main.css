@@ -15,6 +15,17 @@ a {
     text-decoration: none;
 }
 
+.wd-all-25 {
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.wd-header.active {
+	top: -50px;
+}
+
 .wd-header {
 	position: fixed;
 	top: 0px;
@@ -70,6 +81,8 @@ a {
 	cursor: pointer;
 	font-weight: 800;
 }
+
+/* */
 
 .wd-content {
 	margin: 60px 0px;
